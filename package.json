@@ -17,6 +17,13 @@
   },
   "devDependencies": {
     "body-parser": "^1.18.3",
-    "nodemon": "^1.18.11"
+    "git-scripts": "^0.2.1",
+    "nodemon": "^1.18.11",
+    "surge": "^0.20.3"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain unwrapped-api.surge.sh"
+    }
   }
 }
