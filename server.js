@@ -2,7 +2,7 @@ const express        = require('express');
 const bodyParser     = require('body-parser');
 const app            = express();
 
-const port = 8000;
+const port = 80;
 
 require('./app/routes/index')(app, {});
 app.listen(port, () => {
