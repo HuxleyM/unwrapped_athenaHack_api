@@ -10,7 +10,10 @@
   "author": "Carol, An, Shaneil, Huxley, Elizabeth",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.3.5"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",

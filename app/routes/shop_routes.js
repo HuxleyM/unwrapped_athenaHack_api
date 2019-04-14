@@ -14,7 +14,7 @@ module.exports = function(app, db) {
     });
 
     app.put('/shops/:id', (req, res) => {
-       res.send('Adding a shop')
+
     });
 };
 
